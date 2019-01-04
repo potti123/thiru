@@ -19,7 +19,7 @@ public class Myrunner
 {
 	public static void main(String[] args) throws Exception
 	{
-		int flag;
+		int flag;//flag;
 		//connect to Excel file
 		File f=new File("E:\\way2smskeyword.xls");
 		//open excel file for reading

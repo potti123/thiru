@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+  	<parameter name="mbno" value="9492266105"/>
+  	<parameter name="mbnoc" value="valid"/>
+  	<parameter name="pwd" value="priya"/>
+  	<parameter name="pwdc" value="valid"/>
+  	<classes>
+  		<class name="my_pack1.Way2sms"/>
+  	</classes>
+  	</test> 
+  	
+  	<test name="Test2">
+  		<parameter name="mbno" value=" "/>
+  		<parameter name="mbnoc" value="invalid"/>
+  		<parameter name="pwd" value="priya"/>
+  		<parameter name="pwdc" value="valid"/>
+  	<classes>
+  		<class name="my_pack1.Way2sms"/>
+  	</classes>	
+  	</test> 
+  	
+  	<test name="Test3">
+  		<parameter name="mbno" value="9492266"/>
+  		<parameter name="mbnoc" value="invalid"/>
+  		<parameter name="pwd" value="priya"/>
+  		<parameter name="pwdc" value="valid"/>
+  	<classes>
+  		<class name="my_pack1.Way2sms"/>
+  	</classes>	
+  	</test> 
+  	
+  	<test name="Test4">
+  		<parameter name="mbno" value="9492266105"/>
+  		<parameter name="mbnoc" value="valid"/>
+  		<parameter name="pwd" value=" "/>
+  		<parameter name="pwdc" value="invalid"/>
+  	<classes>
+  		<class name="my_pack1.Way2sms"/>
+  	</classes>	
+  	</test> 
+  	
+  	<test name="Test5">
+  		<parameter name="mbno" value="9492266105"/>
+  		<parameter name="mbnoc" value="invalid"/>
+  		<parameter name="pwd" value="priyaa"/>
+  		<parameter name="pwdc" value="valid"/>
+  	<classes>
+  		<class name="my_pack1.Way2sms"/>
+  	</classes>	
+  	</test> 
+</suite> 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test5(failed)">
+    <parameter name="pwdc" value="valid"/>
+    <parameter name="mbnoc" value="invalid"/>
+    <parameter name="mbno" value="9492266105"/>
+    <parameter name="pwd" value="priyaa"/>
+    <classes>
+      <class name="my_pack1.Way2sms">
+        <methods>
+          <include name="closesite"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- my_pack1.Way2sms -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+</suite> <!-- Failed suite [Suite] -->
